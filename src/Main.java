@@ -5,5 +5,13 @@ public class Main {
             sum += i;
         }
         System.out.println("sum = " + sum);
+        System.out.println("Hello");
+        int j = 0;
+        while(true){
+            System.out.println("j = " + j);
+            if(j==2){
+                break;
+            }
+        }
     }
 }
